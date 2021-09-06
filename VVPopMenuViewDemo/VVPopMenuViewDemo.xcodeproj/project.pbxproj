@@ -14,14 +14,14 @@
 		2D2431291D8678CB007BD2B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2431271D8678CB007BD2B7 /* Main.storyboard */; };
 		2D24312B1D8678CB007BD2B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D24312A1D8678CB007BD2B7 /* Assets.xcassets */; };
 		2D24312E1D8678CB007BD2B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D24312C1D8678CB007BD2B7 /* LaunchScreen.storyboard */; };
-		2D2431581D867C2D007BD2B7 /* NSString+VVSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D24314F1D867C2D007BD2B7 /* NSString+VVSize.m */; };
-		2D2431591D867C2D007BD2B7 /* UIImage+VVColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2431511D867C2D007BD2B7 /* UIImage+VVColor.m */; };
-		2D24315A1D867C2D007BD2B7 /* VVPopMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2431531D867C2D007BD2B7 /* VVPopMenuButton.m */; };
-		2D24315B1D867C2D007BD2B7 /* VVPopMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2431551D867C2D007BD2B7 /* VVPopMenuModel.m */; };
-		2D24315C1D867C2D007BD2B7 /* VVPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2431571D867C2D007BD2B7 /* VVPopMenuView.m */; };
 		2D58DDB61D8F81F4004E69A1 /* VVPopMenuView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2D58DDB51D8F81F4004E69A1 /* VVPopMenuView.podspec */; };
 		2D74C9471D87FD0300FAFE23 /* TestTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D74C9451D87FD0300FAFE23 /* TestTopView.m */; };
 		2D74C9481D87FD0300FAFE23 /* TestTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D74C9461D87FD0300FAFE23 /* TestTopView.xib */; };
+		580AB6A826E62A8F00642AAF /* NSString+VVSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 580AB69E26E62A8F00642AAF /* NSString+VVSize.m */; };
+		580AB6A926E62A8F00642AAF /* UIImage+VVColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 580AB6A126E62A8F00642AAF /* UIImage+VVColor.m */; };
+		580AB6AA26E62A8F00642AAF /* VVPopMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 580AB6A326E62A8F00642AAF /* VVPopMenuButton.m */; };
+		580AB6AB26E62A8F00642AAF /* VVPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 580AB6A526E62A8F00642AAF /* VVPopMenuView.m */; };
+		580AB6AC26E62A8F00642AAF /* VVPopMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 580AB6A726E62A8F00642AAF /* VVPopMenuModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,20 +35,20 @@
 		2D24312A1D8678CB007BD2B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D24312D1D8678CB007BD2B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D24312F1D8678CB007BD2B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D24314E1D867C2D007BD2B7 /* NSString+VVSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VVSize.h"; sourceTree = "<group>"; };
-		2D24314F1D867C2D007BD2B7 /* NSString+VVSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VVSize.m"; sourceTree = "<group>"; };
-		2D2431501D867C2D007BD2B7 /* UIImage+VVColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+VVColor.h"; sourceTree = "<group>"; };
-		2D2431511D867C2D007BD2B7 /* UIImage+VVColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+VVColor.m"; sourceTree = "<group>"; };
-		2D2431521D867C2D007BD2B7 /* VVPopMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVPopMenuButton.h; sourceTree = "<group>"; };
-		2D2431531D867C2D007BD2B7 /* VVPopMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVPopMenuButton.m; sourceTree = "<group>"; };
-		2D2431541D867C2D007BD2B7 /* VVPopMenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVPopMenuModel.h; sourceTree = "<group>"; };
-		2D2431551D867C2D007BD2B7 /* VVPopMenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVPopMenuModel.m; sourceTree = "<group>"; };
-		2D2431561D867C2D007BD2B7 /* VVPopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVPopMenuView.h; sourceTree = "<group>"; };
-		2D2431571D867C2D007BD2B7 /* VVPopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVPopMenuView.m; sourceTree = "<group>"; };
 		2D58DDB51D8F81F4004E69A1 /* VVPopMenuView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = VVPopMenuView.podspec; path = ../VVPopMenuView.podspec; sourceTree = "<group>"; };
 		2D74C9441D87FD0300FAFE23 /* TestTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTopView.h; sourceTree = "<group>"; };
 		2D74C9451D87FD0300FAFE23 /* TestTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTopView.m; sourceTree = "<group>"; };
 		2D74C9461D87FD0300FAFE23 /* TestTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestTopView.xib; sourceTree = "<group>"; };
+		580AB69E26E62A8F00642AAF /* NSString+VVSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VVSize.m"; sourceTree = "<group>"; };
+		580AB69F26E62A8F00642AAF /* VVPopMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVPopMenuButton.h; sourceTree = "<group>"; };
+		580AB6A026E62A8F00642AAF /* VVPopMenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVPopMenuModel.h; sourceTree = "<group>"; };
+		580AB6A126E62A8F00642AAF /* UIImage+VVColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+VVColor.m"; sourceTree = "<group>"; };
+		580AB6A226E62A8F00642AAF /* VVPopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVPopMenuView.h; sourceTree = "<group>"; };
+		580AB6A326E62A8F00642AAF /* VVPopMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVPopMenuButton.m; sourceTree = "<group>"; };
+		580AB6A426E62A8F00642AAF /* NSString+VVSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VVSize.h"; sourceTree = "<group>"; };
+		580AB6A526E62A8F00642AAF /* VVPopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVPopMenuView.m; sourceTree = "<group>"; };
+		580AB6A626E62A8F00642AAF /* UIImage+VVColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+VVColor.h"; sourceTree = "<group>"; };
+		580AB6A726E62A8F00642AAF /* VVPopMenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVPopMenuModel.m; sourceTree = "<group>"; };
 		C760A91F8CA36D7ECFAF1641 /* Pods-VVPopMenuViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVPopMenuViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VVPopMenuViewDemo/Pods-VVPopMenuViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DA2BBD977EFA5083DC9D186B /* libPods-VVPopMenuViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VVPopMenuViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C5EB47851A82EF202A0796 /* Pods-VVPopMenuViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVPopMenuViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VVPopMenuViewDemo/Pods-VVPopMenuViewDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				2D58DDB51D8F81F4004E69A1 /* VVPopMenuView.podspec */,
-				2D24314D1D867C2D007BD2B7 /* VVPopMenuView */,
+				580AB69D26E62A8F00642AAF /* VVPopMenuView-xiaotian */,
 				2D24311D1D8678CB007BD2B7 /* VVPopMenuViewDemo */,
 				2D24311C1D8678CB007BD2B7 /* Products */,
 				959C645A5E8FB5FCCA73C855 /* Pods */,
@@ -113,22 +113,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2D24314D1D867C2D007BD2B7 /* VVPopMenuView */ = {
+		580AB69D26E62A8F00642AAF /* VVPopMenuView-xiaotian */ = {
 			isa = PBXGroup;
 			children = (
-				2D24314E1D867C2D007BD2B7 /* NSString+VVSize.h */,
-				2D24314F1D867C2D007BD2B7 /* NSString+VVSize.m */,
-				2D2431501D867C2D007BD2B7 /* UIImage+VVColor.h */,
-				2D2431511D867C2D007BD2B7 /* UIImage+VVColor.m */,
-				2D2431521D867C2D007BD2B7 /* VVPopMenuButton.h */,
-				2D2431531D867C2D007BD2B7 /* VVPopMenuButton.m */,
-				2D2431541D867C2D007BD2B7 /* VVPopMenuModel.h */,
-				2D2431551D867C2D007BD2B7 /* VVPopMenuModel.m */,
-				2D2431561D867C2D007BD2B7 /* VVPopMenuView.h */,
-				2D2431571D867C2D007BD2B7 /* VVPopMenuView.m */,
+				580AB69E26E62A8F00642AAF /* NSString+VVSize.m */,
+				580AB69F26E62A8F00642AAF /* VVPopMenuButton.h */,
+				580AB6A026E62A8F00642AAF /* VVPopMenuModel.h */,
+				580AB6A126E62A8F00642AAF /* UIImage+VVColor.m */,
+				580AB6A226E62A8F00642AAF /* VVPopMenuView.h */,
+				580AB6A326E62A8F00642AAF /* VVPopMenuButton.m */,
+				580AB6A426E62A8F00642AAF /* NSString+VVSize.h */,
+				580AB6A526E62A8F00642AAF /* VVPopMenuView.m */,
+				580AB6A626E62A8F00642AAF /* UIImage+VVColor.h */,
+				580AB6A726E62A8F00642AAF /* VVPopMenuModel.m */,
 			);
-			name = VVPopMenuView;
-			path = ../VVPopMenuView;
+			name = "VVPopMenuView-xiaotian";
+			path = "../VVPopMenuView-xiaotian";
 			sourceTree = "<group>";
 		};
 		959C645A5E8FB5FCCA73C855 /* Pods */ = {
@@ -192,6 +192,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -273,13 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D2431591D867C2D007BD2B7 /* UIImage+VVColor.m in Sources */,
-				2D24315B1D867C2D007BD2B7 /* VVPopMenuModel.m in Sources */,
+				580AB6AB26E62A8F00642AAF /* VVPopMenuView.m in Sources */,
 				2D2431261D8678CB007BD2B7 /* ViewController.m in Sources */,
+				580AB6A926E62A8F00642AAF /* UIImage+VVColor.m in Sources */,
+				580AB6AA26E62A8F00642AAF /* VVPopMenuButton.m in Sources */,
 				2D2431231D8678CB007BD2B7 /* AppDelegate.m in Sources */,
-				2D2431581D867C2D007BD2B7 /* NSString+VVSize.m in Sources */,
-				2D24315C1D867C2D007BD2B7 /* VVPopMenuView.m in Sources */,
-				2D24315A1D867C2D007BD2B7 /* VVPopMenuButton.m in Sources */,
+				580AB6A826E62A8F00642AAF /* NSString+VVSize.m in Sources */,
+				580AB6AC26E62A8F00642AAF /* VVPopMenuModel.m in Sources */,
 				2D74C9471D87FD0300FAFE23 /* TestTopView.m in Sources */,
 				2D2431201D8678CB007BD2B7 /* main.m in Sources */,
 			);
