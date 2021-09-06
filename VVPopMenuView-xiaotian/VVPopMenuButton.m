@@ -9,7 +9,6 @@
 #import "VVPopMenuButton.h"
 #import "UIImage+VVColor.h"
 #import "NSString+VVSize.h"
-#import <SDWebImage/UIButton+WebCache.h>
 
 static NSString * const VVPopMenuButtonSelectdAnimationKey = @"VVPopMenuButtonSelectdAnimationKey";
 
@@ -209,7 +208,7 @@ static NSString * const VVTransformOpacityKeyPathKey       = @"opacity";
     if ([popMenuModel.image isKindOfClass:[UIImage class]]) {
         [self setImage:popMenuModel.image forState:UIControlStateNormal];
     } else if ([popMenuModel.image isKindOfClass:[NSString class]]) {
-        [self sd_setImageWithURL:[NSURL URLWithString:popMenuModel.image] forState:UIControlStateNormal placeholderImage:popMenuModel.placeholdImage];
+//        [self sd_setImageWithURL:[NSURL URLWithString:popMenuModel.image] forState:UIControlStateNormal placeholderImage:popMenuModel.placeholdImage];
     } else {
         [self setImage:nil forState:UIControlStateNormal];
     }
